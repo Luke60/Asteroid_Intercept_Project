@@ -1,0 +1,28 @@
+The following steps are all that is needed to run Milestone 2:
+-------------------------------------------------------------------------------------------------
+
+1 First open the file called 'DeterminePlantTransferFunction.m' and run the script.
+2 The next step requires you to open the 'AsteroidImpact.slx' file. Once Opened, you
+  may minimise the simulink window.
+3 Depending on the scenario you wish to run, you can change the scenario value by double
+  clicking the system dynamics block in the 'AsteroidImpact.slx' file, and change the value,
+  then click 'ok'.
+
+-------------------------------------------------------------------------------------------------
+The next step will run the simulation 10 times, each time with a randomly generated seed value
+between 100 and 1000.
+-------------------------------------------------------------------------------------------------
+
+4 Finally, you should open and run the file called 'Seed_Test.m'. This file will randomly choose
+  10 seed values and simulate them for the chosen scenario. The command window will show you all
+  the relevant information you require including the x distance between the rocket-asteroid
+  intercept and the city as well as the distance between the asteroid and rocket at detonation and
+  the random seed value being tested.
+
+-------------------------------------------------------------------------------------------------
+If you wish to enter your own seed value to test the controller then use step 5 below.
+-------------------------------------------------------------------------------------------------
+
+5 If you want to enter you own seed value then open the file called 'main.m'. To change the seed
+  value, simply change the value of the last parameter in line 8 of the script and run the script.
+6 Done!
